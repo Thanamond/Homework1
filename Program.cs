@@ -12,13 +12,13 @@ namespace workshop2_1
                int rest_code1 = code - (n100k*100000);
                int n10k = rest_code1/10000;
                int rest_code2 = rest_code1 - (n10k*10000);
-               int n1k = rest_code2/1000; //condition 1
+               int n1k = rest_code2/1000; 
                int rest_code3 = rest_code2 - (n1k*1000);
                int n100 = rest_code3/100;
                int rest_code4 = rest_code3 - (n100*100);
-               int n10 = rest_code4/10; //condition 2
+               int n10 = rest_code4/10; 
                int rest_code5 = rest_code4 - (n10*10);
-               int n1 = rest_code5/1; //condition 3
+               int n1 = rest_code5/1; 
                int rest_code6 = rest_code5 - (n1*1);
             if (code < 100000 || code > 999999 )
             {
