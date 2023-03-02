@@ -20,9 +20,9 @@ namespace workshop2_1
                int rest_code5 = rest_code4 - (n10*10);
                int n1 = rest_code5/1; //condition 3
                int rest_code6 = rest_code5 - (n1*1);
-            if (code <= 100000 || code >= 999999 )
+            if (code < 100000 || code > 999999 )
             {
-                Console.WriteLine("Invalid code");
+                Console.WriteLine("Error : Invalid code");
             }
             else
             {
@@ -104,7 +104,7 @@ namespace workshop2_1
                     }
                     break;
                 default:
-                    Console.WriteLine("Error : no organization detected");
+                    Console.WriteLine("Error : Invalid code");
                     break;      
                 }
             }   
